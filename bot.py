@@ -9,7 +9,12 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
 import os
 from dotenv import load_dotenv
+<<<<<<< Updated upstream
 ###
+=======
+print(1)
+
+>>>>>>> Stashed changes
 storage = MemoryStorage()
 
 load_dotenv()
