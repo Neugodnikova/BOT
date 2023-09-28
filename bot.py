@@ -28,7 +28,7 @@ item5 = types.KeyboardButton("Коды валют")
 item6 = types.KeyboardButton("График курса")
 menu_keyboard.add(item1, item2, item3, item4, item5, item6)
 
-# Создаем Inline Keyboard Markup (клавиатуру в сообщении)
+# Создаем Inline Keyboard Markup (клавиатуру в сообщении  )
 period_keyboard = InlineKeyboardMarkup(row_width=2)
 period_keyboard.add(
     InlineKeyboardButton("Месяц", callback_data="period_month"),
