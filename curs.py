@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
 import requests
 import io
-
+#print(1)
 valutes = {
     'AED': 4043268,
     'AMD': 498822,
